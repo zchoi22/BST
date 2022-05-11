@@ -29,7 +29,7 @@ class BST:
         if key > root.getKey():
             root.setRight(self.private_put(root.getRight(), key, value))
         else:
-            root.setLeft(self.private_put(root.getLeft()), key, value)
+            root.setLeft(self.private_put(root.getLeft(), key, value))
         return root
 
     def get(self, key):
