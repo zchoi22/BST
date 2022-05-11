@@ -1,7 +1,11 @@
+#Node class in Python
+#Author: Ms. Hellman
+#Transcribed? Zion Choi
+#OMH
 
 class Node:
     #constructor, has option values for left and right nodes
-    def __init__(self, key, value, size, left=None, right=None):
+    def __init__(self, key, value, size=1, left=None, right=None):
         self.key = key
         self.value = value
         self.size = size
